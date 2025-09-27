@@ -1,0 +1,231 @@
+*{
+     margin: 0;
+     box-sizing: border-box;
+}
+body{
+     background-color: #fff;
+}
+
+
+      
+   
+
+
+.flex{
+           display: grid;
+           grid-template-columns: 2fr 1fr;
+          
+           margin-top: 2rem;
+           position: relative;
+}
+.st{
+     background-color: #040753B2;
+     font-family: "poppins", sans-serif;
+     color: #fff;
+     width: 570px;
+     height: 97px;
+     top: 600px;
+     left: 60px;
+     padding: 15px;
+     border-radius: 29px;
+     position: absolute;
+}
+.logo{
+      left: 60px;
+      top: 20px;
+      position: absolute;
+}
+.form{
+      margin-top: 15px;
+      
+     
+      
+}
+.st-2{
+     position: relative;
+     background-color: rgba(128, 128, 128, 0.372);
+     width: 400px;
+     height: 57px;
+     padding: 10px;
+     margin-bottom: 50px;
+     margin-left: 50px;
+     
+}
+.logo-2{
+        position: absolute;
+        left: 3px;
+        top: 3px;
+
+}
+.st-2 h6, h4{
+             margin-left: 55px;
+             margin-top: 2px;
+             
+}
+.st-2 h4{
+        font-size: 15px;
+        color:#3C3D6D;
+        text-shadow: 1px 1px #3C3D6D;
+}
+.st-2 h6{
+         color: rgb(143, 27, 27);
+         margin-left: 90px;
+         font-size: 9px;
+         
+}
+.p{
+     margin-left: 50px;
+     font-family: "poppins", sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+     color: #000000;
+}
+.login-register{
+      margin-top: 45px;
+      display: flex;
+      justify-content: space-evenly;
+      background-color: #49BBBD99;
+      width: 329px;
+      height: 59px;
+      padding: 10px;
+      margin-left: 50px;
+      border-radius: 33px;
+      margin-bottom: 30px;
+}
+.login-register button{
+                      background-color:#69aeaf1a;
+                      width: 100px;
+                      height: 40px;
+                      border-radius: 33px;
+                      border-style: none;
+                      color: #fff;
+                      font-family: "poppins", sans-serif;
+                      font-size: 16px;
+                      font-weight: 500;
+        
+}
+.login-register button:hover{
+                          background-color: #49BBBD;
+                          transition: 1s;
+}
+.login-register a{
+                  text-decoration: none;
+                  color: #fff;
+                  font-family: "poppins", sans-serif;
+                  font-size: 16px;
+                  font-weight: 400;
+                  margin: 10px;
+
+          
+}
+
+
+.student{
+        margin-left: 60px;
+        color: #5B5B5B;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "poppins", sans-serif;
+}
+.label{
+       margin-top: 40px;
+       margin: 60px;
+       line-height: 180%;
+       
+}
+#text{
+     width: 400px;
+     height: 54px;
+     border-radius: 40px;
+     border: 1px   solid #49BBBD; 
+     padding-left: 15px;    
+}
+label{
+      font-size: 16px;
+      font-weight: 400;
+      font-family: "poppins", sans-serif;
+}
+input{
+      margin-top: 20px;
+      font-size: 12px;
+      font-family: "poppins", sans-serif;
+      
+}
+.forgot{
+        margin-left: 180px;
+}
+#btn{
+      margin-top: 60px;
+      margin-left: 170px;
+      background-color:#49BBBD;
+      width: 232px;
+      height: 49px;
+      color: #fff;
+      border-radius: 36px;
+      border-style: none;
+}
+footer{
+       background-color:#49BBBD;
+       margin-top: 70px;
+       
+       height:44px;
+       text-align: center;
+       padding: 20px;
+       font-size: 12px;
+       font-weight: 400px;
+       font-style: normal;
+       font-family: "Montserrat", sans-serif;
+       
+}
+
+@media (max-width:600px){
+                    body{
+                        overflow-x: hidden;
+                    }
+            .flex{
+                 grid-template-columns: 1fr; 
+                 gap: 30px;
+            }
+           .pupils{
+                  width: 400px; 
+                  height: 400px;  
+                  margin: 10px;
+           } 
+           .st-2{
+               margin: 10px;
+           }
+           .logo{
+                 width: 70px;
+                 left: 30px;
+           }
+           .st{
+               top: 310px;
+               height: 70px;
+               width: 370px;
+               left: 20px;
+           }
+           .st h1{
+                 font-size: 20px;
+           }
+           .st p{
+                font-size: 12px;
+           }
+           #text{
+                 margin: 10px;
+                 width: 330px;
+           }
+           .label{
+                  margin: 40px;
+           }
+           .forgot{
+                  margin-left: 100px;
+           }
+           #btn{
+               margin: 66px;
+           }
+           footer{
+                 padding: 10px;
+                 width: fit-content;
+           }
+          
+    }

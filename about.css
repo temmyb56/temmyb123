@@ -1,0 +1,593 @@
+*{
+      margin: 0;
+      box-sizing: border-box;
+      outline: 1px solid red;
+}
+nav{
+     display: flex;
+     justify-content: space-between;
+     word-spacing: 6rem;
+     
+     
+}
+.nav-links{
+          margin-top: 2rem;
+          margin-right: 24rem;      
+}
+.nav-links a{
+           color: #fff;
+           text-decoration: none;
+}
+body{
+      background-image: url(./header-bg.png);
+      background-repeat: no-repeat;
+}
+
+.header-man{
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+}
+.header-man h1{
+                font-size: 4rem;
+                font-weight: 700;
+                font-family: "poppins", sans-serif;  
+                color: #fff;         
+}
+.header-man p{
+             margin-top: 1rem;
+             line-height: 180%;
+             font-size: 1.1rem;
+             margin-right: 10rem;
+             color: #fff;
+             font-weight: 700;
+             font-family: "Nunito Sans", sans-serif;
+             
+}
+.header-man h5{
+              background-color: #FFFFFF4D;
+              width: 165px;
+              height: 37px;
+              border-radius: 80px;
+              padding: 12px;
+              padding-left: 25px;
+              font-weight: 600;
+              font-family: "poppins", sans-serif;
+              color: #fff;
+              margin-top: 1rem;
+              
+}
+.indian{
+       position: relative;
+}
+.six{
+     background-image: linear-gradient(to right,#49BBBD,#260BA1);
+     width: 279px;
+     height: 30px;
+     position: absolute;
+     margin-left: 45rem;
+     margin-top: 28.7rem;
+     border-radius: 10px;
+     font-family: "poppins", sans-serif;
+     font-style: bold;
+     font-weight: 700;
+     font-size: 1.9rem;
+     color: #fff;
+     padding: 3px;
+     padding-left: 1rem;
+}
+.ST{
+      text-align: center;
+      line-height: 180%;
+     
+}
+.ST h4{
+      font-size: 2rem;
+      font-weight: 790;
+      font-family: "poppins", sans-serif;
+      margin-top: 7rem;
+      color:#2F327D;
+           
+}
+.ST P{
+      font-weight: 400;
+      font-size: 1rem;
+      font-family: "poppins", sans-serif;
+      margin: 1rem 15rem 0rem 15rem; 
+      color: #696984;
+}
+.college{
+        color: #49BBBD;
+}
+.everything{
+           display: flex;
+           text-align: center;
+           justify-content: space-around;
+           margin-top: 5rem;
+}
+.principal{
+           background-color: #fff;
+           width: 355px;
+           height: 450px;
+           box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+         
+}
+.principal h4{
+             font-size: 1.6rem;
+             font-style: bold;
+             font-weight: 800;
+             font-family: "poppins", sans-serif;
+             color: #2F327D;
+             margin-top: 1.7rem;
+}
+.principal p{
+             line-height: 180%;
+            font-family: "poppins", sans-serif;
+            font-size: 1rem;
+            margin: 1.4rem 1rem 0rem 1rem;
+            color: #696984;
+            margin-top: 1.2rem;
+            padding: 20px;
+}
+.dami{
+      color:#696984;
+      font-size: 1rem;
+      font-family: "poppins", sans-serif;
+      font-weight: 700;
+      font-style: bold;
+}
+.prince{
+       color:#696984;
+      font-size: 1.2rem;
+      font-family: "poppins", sans-serif;
+      font-weight: 700;
+      font-style: bold;
+}
+.hod{
+           background-color: #fff;
+           width: 355px;
+           height: 450px;
+           box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+      
+}
+.hod h4{
+             font-size: 1.6rem;
+             font-style: bold;
+             font-weight: 800;
+             font-family: "poppins", sans-serif;
+             color: #2F327D;
+             margin-top: 1.7rem;
+}
+.hod p{
+            line-height: 180%;
+            font-family: "poppins", sans-serif;
+            font-size: 1rem;
+            margin: 1.4rem 1rem 0rem 1rem;
+            color: #696984;
+            margin-top: 1rem;
+            padding: 20px;
+}
+.headies{
+      text-decoration: underline;
+      color:#696984;
+      font-size: 1.2rem;
+      font-family: "poppins", sans-serif;
+      font-weight: 700;
+      font-style: bold;
+}
+.head{
+           background-color: #fff;
+           width: 350px;
+           height: 450px;
+           box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+     
+}
+.head h4{
+           font-size: 1.6rem;
+             font-style: bold;
+             font-weight: 800;
+             font-family: "poppins", sans-serif;
+             color: #2F327D; 
+             margin-top: 1.7rem;    
+}
+.head p{
+         line-height: 180%;
+            font-family: "poppins", sans-serif;
+            font-size: 1rem;
+            margin: 1.4rem 1rem 0rem 1rem;
+            color: #696984;
+            margin-top: 1rem;
+            padding: 20px;
+       
+}
+.img-icon{
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        gap: 17rem;
+}
+.everything-2{
+             display: flex;
+             justify-content: space-around;
+             margin-top: 4rem;
+} 
+.ringtone{
+          background-color: #fff;
+          width: 367px;
+          height: 147px;
+          box-shadow: 3px 3px 3px 3px rgba(0,  0,  0, 0.1);
+          border-radius: 20px;
+          padding: 10px;
+          padding-left: 7rem;
+         
+}
+.call{
+     
+      font-size: 1.8rem;
+      font-weight: bold;
+      font-family: "poppins", sans-serif;
+      color: #49BBBD;
+      margin: 1rem;
+      
+      
+}
+.ringtone p{
+          color: #2F327D;
+          font-family: "poppins", sans-serif;
+          font-weight: bold;
+          font-size: 1.4rem;
+          
+          
+}
+.email{
+         background-color: #fff;
+          width: 367px;
+          height: 147px;
+          box-shadow: 3px 3px 3px 3px rgba(0,  0,  0, 0.1);
+          border-radius: 20px;
+          padding: 10px;
+          padding-left: 7rem;
+          
+      
+}
+.email-span{
+           font-size: 1.8rem;
+           font-weight: bold;
+           font-family: "poppins", sans-serif;
+           color: #49BBBD;
+           margin: 1rem;
+           
+}
+.email p{
+          color: #2F327D;
+          font-family: "poppins", sans-serif;
+          font-weight: bold; 
+          font-size: 1.7rem;
+}
+.main{
+          background-color: #fff;
+          width: 367px;
+          height: 147px;
+          box-shadow: 3px 3px 3px 3px rgba(0,  0,  0, 0.1);
+          border-radius: 20px;
+          padding: 10px;
+          padding-left: 7rem;
+
+}
+.main-office{
+           font-size: 1.8rem;
+           font-weight: bold;
+           font-family: "poppins", sans-serif;
+           color: #49BBBD;
+           margin: 1rem;
+
+}
+.main p{
+          color: #2F327D;
+          font-family: "poppins", sans-serif;
+          font-weight: bold;
+          font-size: 1.3rem;
+}
+.cont{
+     display: flex;
+     justify-content: space-around;
+     position: absolute;
+     gap: 23rem; 
+     margin-top: 7rem; 
+}
+.ring{
+     margin-right: 2rem;
+     
+
+}
+
+footer{
+       background-color:#49BBBD;
+       margin-top: 6rem;
+       height:44px;
+       text-align: center;
+       padding: 20px;
+       font-size: 12px;
+       font-weight: 400px;
+       font-style: normal;
+       font-family: "Montserrat", sans-serif;
+}
+.indy{
+       display: none;
+}
+.indian-2{
+       display: none;
+}
+.seven{
+       display: none;
+}
+#img-1{
+      display: none;
+}
+#img-2{
+       display: none;
+}
+#img-3{
+      display: none;
+}
+.hello{
+      display: none;
+}
+.laptop{
+       display: none;
+}
+.welcome{
+        display: none;
+}
+@media only screen and (max-width:600px){
+                              .nav-links{
+                                        display: none;
+                              }
+                              nav{
+                                     margin-top: 1rem;
+                                     margin-left: 2rem;
+                                    
+                              }
+                              body{
+                                     background-image: none;
+                                     background-image: linear-gradient( #49BBBD,#260BA1, white 160%);
+                                     width: auto; 
+                                     height: 1398px;
+                                     background-color: #fff;
+                                   
+                                    
+                                   
+                                     
+                                    
+                                     
+                              }
+                              .indian{
+                                      display: none;
+                              }
+                            .indy-2{
+                                   width: 90vw;
+                                   padding: 0rem 0rem 0rem 1rem;
+
+
+                            }
+                            .indian-2{
+                                 display: flex;
+                                 mix-blend-mode: screen;
+                                 border-bottom-right-radius: 10px;
+                                 opacity: 0.9;
+                                 
+                                 
+                            }
+
+                            .six{
+                                margin-top: 1170px;
+                                margin-right: 710px
+                                
+                                 
+
+                            }
+                               
+                              .header-text h1{
+                                            font-size: 1.9rem;
+                              }
+                              .header-text p{
+                                            display: inline;
+                                            font-size: 1rem;
+                                           
+                                            
+                              }
+                              
+
+
+
+                              .ST p{
+                                    margin: 10px;  
+                              }
+                              .everything{
+                                         display: block;
+                                          
+                                         margin-top: 100px;
+                                         
+                              }
+                             
+                                       
+                              .principal{
+                                        width: 100%;
+                                        
+                                        
+                              }
+                              .principal h4{
+                                           color: black;
+                                           width: 80%;
+                              }
+                              .principal p{
+                                          z-index: 1;
+                                          position: relative;
+                                          color: #6b6b97fe;
+                              }
+                              .hod{
+                                    margin-top: 80px;
+                                    width: 100%;
+                                     
+                              }
+                              .hod h4{
+                                      color: black;
+                                      width: 80%;
+                              }
+                              .hod p{
+                                    position: relative;
+                                    z-index: 1;
+                                    color: #6b6b97fe;
+
+                              }
+                              
+                                  
+
+                              
+                              .head{
+                                     margin-top: 100px;
+                                     width: 100%;
+                                    
+                                     height: 500px;
+                              }
+                              .head h4{
+                                      color:  black;
+                                      width: 90%;
+                              }
+                               
+                              .head p{
+                                     margin-top: 4rem;
+                                     position: relative;
+                                     z-index: 1;
+                                     color:  #6b6b97fe;
+
+                              }
+                              .img-icon{
+                                       display: none;
+                              }
+                              #img-3{
+                                      position: absolute;
+                                      display: flex;
+                                      padding: 30px;
+                                      margin-top: 16rem;
+                                      margin-left: 4rem;
+                                      width: 70%;
+                                      height: 30%;
+                                      opacity: 0.6;
+                                     
+                                    
+                              }
+                              #img-2{
+                                       position: absolute;
+                                       display: flex;
+                                       padding: 30px;
+                                       margin-top: 13rem;
+                                       margin-left: 4rem;
+                                       width: 70%;
+                                       height: 30%;
+                                       opacity: 0.6;
+                                     
+
+                              }
+                              #img-1{
+                                      position: absolute;
+                                      display: flex;
+                                      padding: 30px;
+                                      margin-top: 4rem;
+                                      margin-left: 4rem;
+                                      width: 70%;
+                                      height: 30%;
+                                      opacity: 0.6;
+                              }
+                              .cont{
+                                    display: none;
+                              }
+                             
+                              .everything-2{
+                                    display: none;
+                              }
+                              .hello{
+                                      display: flex;
+                                      flex-direction: column;
+                                      gap: 50px;
+                                      
+                                     
+                                      
+                              }
+                              .fa-phone{
+                                      font-size: 50px;
+                                      margin-left: 20px;
+                                      
+                              }
+                              .fa-envelope{
+                                          font-size: 50px;
+                                          margin-left: 20px;
+                              }
+                              .fa-location-dot{
+                                              font-size: 50px;
+                                              margin-left: 20px;
+                              }
+                              .numb{
+                                     font-size: 30px;
+                                     margin-left: 100px;
+                                     
+                              }
+                             #numb-only{
+                                       margin-left: 50px;
+                      }        
+                        footer{
+                                           padding: 8px;
+                                           
+                                     }  
+                                 /*    .laptop{
+                                            margin: 10px;
+                                            margin-top: 50px;
+                                            background-image: linear-gradient( rgb(153, 139, 196), white 20%);
+                                            border-top-left-radius: 10px;
+                                            border-top-right-radius: 10px; 
+                                            width: 95%;
+                                            
+                                               
+                                     }  
+                                     .laptop{
+                                            position: relative;
+                                            display: inline-block;
+                                         
+                                           
+                                          
+                                          
+                                           
+                                     }
+                                     .welcome{
+                                          position: absolute;
+                                          top: 1750px;    
+                                          left: 139px;
+                                          height: 62%; 
+                                          display: flex;
+                                          align-items: center;
+                                          justify-content: center;
+                                          text-align: center;
+                                          font-size: 400;
+                                          font-weight: bold;
+                                          font-family: "poppins", sans-serif;
+                                          background-image: linear-gradient(to right,#49BBBD,#545AE8);
+                                          color: transparent;
+                                          -webkit-background-clip: text;
+                                          transition: 3s;
+                                          animation: typing 4s 3;
+                                          white-space: nowrap;
+                                          overflow: hidden;
+                                     }   
+                                     
+                                     @keyframes typing{
+                                             from{
+                                                 width: 0;
+                                             }
+                                             to{
+                                                width: 40%;
+                                             }
+                                     }*/
+                  
+
+                                    }
+       
